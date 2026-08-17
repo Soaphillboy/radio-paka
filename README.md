@@ -32,7 +32,7 @@ tos neaiztiek.
 ## Izlaidums
 
 1. Labo skillus / zīmolu profilus, `ehr/.claude-plugin/plugin.json` versiju un CHANGELOG.
-2. Lokāls tests: `claude plugin validate .` un `claude plugin validate ehr`;
+2. Lokāls tests: `claude plugin validate <pilns ceļš uz ehr-paka>` un `... /ehr` (absolūtie ceļi);
    pilnais: `claude plugin marketplace add <šī mape>` + `claude plugin install ehr@ehr-paka`,
    pēc tam uninstall + marketplace remove.
 3. `git commit && git push`. Klienti: `/plugin marketplace update ehr-paka` + `/reload-plugins`.
