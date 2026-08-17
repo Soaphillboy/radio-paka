@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(./**)",
+      "Edit(./**)",
+      "Write(~/.ehr/**)",
+      "Edit(~/.ehr/**)"
+    ]
+  }
+}

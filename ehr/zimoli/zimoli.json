@@ -1,0 +1,53 @@
+{
+  "_piezime": "EHR zīmolu tabula. Krāsas sakrīt ar dashboarda BRANDS (worker.js); ehr akcents = 2026-07 apstiprinātā titru parauga sarkanais. Balss profili: zimoli/<key>.md",
+  "ehr": {
+    "name": "European Hit Radio",
+    "short": "EHR",
+    "color": "#E4002B",
+    "g1": "#F03A2E",
+    "g2": "#C4102E",
+    "language": "lv",
+    "handles": { "instagram": "europeanhitradio", "tiktok": "ehr_life" },
+    "profils": "zimoli/ehr.md"
+  },
+  "superhits": {
+    "name": "SuperHits",
+    "short": "Super Hits",
+    "color": "#EF7C17",
+    "g1": "#F5AE28",
+    "g2": "#EE6412",
+    "language": "lv",
+    "handles": { "instagram": "", "tiktok": "" },
+    "profils": "zimoli/superhits.md"
+  },
+  "latviesuhiti": {
+    "name": "Latviešu Hiti",
+    "short": "Latviešu Hiti",
+    "color": "#2B6FE0",
+    "g1": "#2BB8F5",
+    "g2": "#2A4CD8",
+    "language": "lv",
+    "handles": { "instagram": "", "tiktok": "" },
+    "profils": "zimoli/latviesuhiti.md"
+  },
+  "ehrplus": {
+    "name": "EHR+",
+    "short": "EHR Plus",
+    "color": "#D41E52",
+    "g1": "#F03A66",
+    "g2": "#BE0F43",
+    "language": "ru",
+    "handles": { "instagram": "", "tiktok": "" },
+    "profils": "zimoli/ehrplus.md"
+  },
+  "retrofm": {
+    "name": "Retro FM",
+    "short": "Retro FM",
+    "color": "#E32B9E",
+    "g1": "#E64AC4",
+    "g2": "#E80C7C",
+    "language": "lv",
+    "handles": { "instagram": "", "tiktok": "" },
+    "profils": "zimoli/retrofm.md"
+  }
+}

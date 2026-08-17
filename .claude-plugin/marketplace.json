@@ -1,0 +1,12 @@
+{
+  "name": "ehr-paka",
+  "metadata": { "description": "EHR Satura Sistēma: Claude skillu paka European Hit Radio komandas datoriem (titri, apraksti)" },
+  "owner": { "name": "Edgars Feščenko / FRESH digital", "email": "edgars@creators.lv" },
+  "plugins": [
+    {
+      "name": "ehr",
+      "source": "./ehr",
+      "description": "EHR komandas skilli: uzstādīšanas vednis, auto titri EHR stilā, video apraksti visiem 5 zīmoliem."
+    }
+  ]
+}
