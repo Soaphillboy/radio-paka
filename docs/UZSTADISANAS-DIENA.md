@@ -5,9 +5,9 @@ Mērķis: 3 līdz 4 Mac (Artūrs, Anete, Viorika, Ilze?) ar `ehr` paku, katrs ~1
 
 ## Pirms brauciena (vakarā pirms)
 
-- [ ] Repo ir PUBLISKS (github.com/Soaphillboy/ehr-paka → Settings → Danger zone), tāpēc
+- [ ] Repo ir PUBLISKS (github.com/Soaphillboy/radio-paka → Settings → Danger zone), tāpēc
       nekādi tokeni un GitHub konti klientiem nav vajadzīgi. Pārbaude no jebkura datora bez
-      pieteikšanās: `git ls-remote https://github.com/Soaphillboy/ehr-paka` (rāda `main`).
+      pieteikšanās: `git ls-remote https://github.com/Soaphillboy/radio-paka` (rāda `main`).
 - [ ] Pārbaudi, ka repo ir pushots un `main` satur jaunāko: `cd ~/claude-os/projekti/ehr-paka && git status && git log -1`
 - [ ] Ja iespējams, iepriekšējā dienā aizsūti komandai vienu rindu, ko palaist Terminālī, lai
       lejupielādē lielos gabalus fonā (Homebrew + ffmpeg + node + python), tad uz vietas paliek
@@ -20,8 +20,8 @@ Mērķis: 3 līdz 4 Mac (Artūrs, Anete, Viorika, Ilze?) ar `ehr` paku, katrs ~1
 ## Pie katra datora (~15 min)
 
 1. Claude Code atvērts. Ielīmē 2 rindas:
-   `/plugin marketplace add https://github.com/Soaphillboy/ehr-paka` un `/plugin install ehr@ehr-paka`.
-   (Pilnā HTTPS adrese, ne `Soaphillboy/ehr-paka` īsforma: īsforma klonē pa SSH un bez atslēgas failo.)
+   `/plugin marketplace add https://github.com/Soaphillboy/radio-paka` un `/plugin install ehr@ehr-paka`.
+   (Pilnā HTTPS adrese, ne `Soaphillboy/radio-paka` īsforma: īsforma klonē pa SSH un bez atslēgas failo.)
 2. "uzstādi". Fons sāk iet. Atbildi uz 4 jautājumiem kopā ar cilvēku (vārds, zīmols,
    dashboarda adrese birojā, akcenti). Dashboarda adrese ir tava piezīmēs (klienta CRM
    kartīte), pakā tā apzināti nav ierakstīta.

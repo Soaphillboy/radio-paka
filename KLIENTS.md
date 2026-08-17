@@ -16,7 +16,7 @@ TEV NEKAS NAV JĀPROGRAMMĒ. Tu runā, Claude dara.
 Atver Claude Code un ieraksti pa vienai (nekādas pieteikšanās vai paroles nevajag):
 
 ```
-/plugin marketplace add https://github.com/Soaphillboy/ehr-paka
+/plugin marketplace add https://github.com/Soaphillboy/radio-paka
 ```
 ```
 /plugin install ehr@ehr-paka
