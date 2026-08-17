@@ -36,7 +36,7 @@ Katram video ir viens zīmols, un no tā nāk akcenta krāsa un transkripcijas v
 | `superhits` | SuperHits | oranžā #EF7C17 | lv |
 | `latviesuhiti` | Latviešu Hiti | zilā #2B6FE0 | lv |
 | `ehrplus` | EHR+ | aveņu #D41E52 | ru |
-| `retrofm` | Retro FM | rozā #E32B9E | lv |
+| `retrofm` | Retro FM | rozā #E32B9E | ru |
 
 Zīmolu nosaki tā: (1) lietotājs pasaka ("Super Hits video", "tas ir EHR+"), (2) faila vai
 mapes nosaukumā ir zīmola vārds, (3) citādi config `zimols` (lietotāja galvenais zīmols).
@@ -58,6 +58,7 @@ pierakstās blakus video (`.captions-meta.json`), un renderis to lieto pats.
    Blakus video rodas `<nosaukums>.captions.md` (tabula), `.captions-timing.json` (laiki),
    `.captions-meta.json` (zīmols, valoda). Valoda nāk no zīmola (EHR+ = krievu), citādi
    config; ja lietotājs pasaka citu vai tā acīmredzama, padod `--lang=`.
+   (EHR+ un Retro FM saturs ir krieviski; ja konkrētais video ir latviski, `--lang=lv`.)
    Ja tabula jau ir, skripts apstājas (lai nepazustu labojumi); no jauna: `--force`.
 2. **Izlabo acīmredzamās transkripcijas kļūdas** captions.md tabulā pats: pareizrakstība,
    īpašvārdi, zīmolu nosaukumi (EHR, SuperHits, Latviešu Hiti, EHR+, Retro FM), dīdžeju un

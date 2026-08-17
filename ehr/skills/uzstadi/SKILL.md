@@ -72,7 +72,7 @@ jau ir, tikai papildini tukšos laukus. Jautā pa vienam, katru ar variantiem va
 2. **Galvenais zīmols**: "Ar kuru zīmolu tu strādā visvairāk: EHR, SuperHits, Latviešu Hiti,
    EHR+ vai Retro FM? Ja ar vairākiem, kurš ir biežākais? Katram video zīmolu var pateikt
    atsevišķi, šis ir tikai noklusējums." → `zimols` (atslēga: ehr / superhits / latviesuhiti /
-   ehrplus / retrofm). Valodu ieliec pēc zīmola (`ehrplus` → `language: "ru"`, citi → `"lv"`),
+   ehrplus / retrofm). Valodu ieliec pēc zīmola (`ehrplus` un `retrofm` → `language: "ru"`, citi → `"lv"`),
    ja cilvēks nepasaka citādi.
 3. **Dashboards**: "Kāda ir dashboarda adrese pārlūkā, kad esi birojā?" Piedāvā noklusējumu
    `http://10.0.0.33:8080` (biroja tīkls / VPN). → `dashboard`. Adrese configā ir tikai

@@ -47,7 +47,7 @@ fi
 3. Katrai platformai no config `platforms` savs variants; limiti un ieražas
    `references/platformu-limiti.md`. Ja zīmola profils saka, ka zīmols kādā platformā raksta
    citādi (piem., TikTok īsāk, bez hashtagiem), profils ir pārāks par vispārīgo tabulu.
-4. Valoda no zīmola: EHR+ raksta krieviski (ja lietotājs nesaka citādi), pārējie latviski.
+4. Valoda no zīmola: EHR+ un Retro FM raksta krieviski (ja lietotājs nesaka citādi), pārējie latviski.
    Ja profils rāda angļu ieskaitījumus vai jauktu valodu, dari tāpat, tikai tik, cik paraugos.
 5. Zīmola profila paraugos atrodi tuvāko līdzīgo (tas pats formāts: intervija studijā, dj joks,
    konkurss, dziesmas premjera, pasākums) un turies pie tā ritma un garuma.
@@ -55,7 +55,8 @@ fi
    profilā, tādā pašā daudzumā. Ja profils saka "hashtagi 0", tad 0.
 7. Nekad neizdomā faktus: dīdžeju vārdus, laikus, dziesmu nosaukumus, balvas ņem no transkripta
    vai lietotāja. Ja trūkst, atstāj `[?]` un pasaki, kas jāaizpilda.
-8. Domuzīmes (—) tekstos nelieto: komats, kols vai jauns teikums.
+8. Domuzīmes (—): EHR, SuperHits un Latviešu Hiti tās nelieto (defise "-" ar atstarpēm vai jauns teikums).
+   EHR+ un Retro FM oriģinālos tās ir; tur drīkst, bet ne vairāk kā vienu uz aprakstu, citādi tas skan pēc AI.
 
 ## Izvade
 

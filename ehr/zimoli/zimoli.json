@@ -7,7 +7,10 @@
     "g1": "#F03A2E",
     "g2": "#C4102E",
     "language": "lv",
-    "handles": { "instagram": "europeanhitradio", "tiktok": "ehr_life" },
+    "handles": {
+      "instagram": "europeanhitradio",
+      "tiktok": "ehr_life"
+    },
     "profils": "zimoli/ehr.md"
   },
   "superhits": {
@@ -17,7 +20,10 @@
     "g1": "#F5AE28",
     "g2": "#EE6412",
     "language": "lv",
-    "handles": { "instagram": "", "tiktok": "" },
+    "handles": {
+      "instagram": "radiosuperhitslv",
+      "tiktok": "superhits_radio"
+    },
     "profils": "zimoli/superhits.md"
   },
   "latviesuhiti": {
@@ -27,7 +33,10 @@
     "g1": "#2BB8F5",
     "g2": "#2A4CD8",
     "language": "lv",
-    "handles": { "instagram": "", "tiktok": "" },
+    "handles": {
+      "instagram": "latviesuhiti",
+      "tiktok": "latviesuhiti"
+    },
     "profils": "zimoli/latviesuhiti.md"
   },
   "ehrplus": {
@@ -37,7 +46,10 @@
     "g1": "#F03A66",
     "g2": "#BE0F43",
     "language": "ru",
-    "handles": { "instagram": "", "tiktok": "" },
+    "handles": {
+      "instagram": "radioehrplus",
+      "tiktok": "ehrplus"
+    },
     "profils": "zimoli/ehrplus.md"
   },
   "retrofm": {
@@ -46,8 +58,11 @@
     "color": "#E32B9E",
     "g1": "#E64AC4",
     "g2": "#E80C7C",
-    "language": "lv",
-    "handles": { "instagram": "", "tiktok": "" },
+    "language": "ru",
+    "handles": {
+      "instagram": "retrofmlatvija",
+      "tiktok": "retrofm.latvija"
+    },
     "profils": "zimoli/retrofm.md"
   }
 }
