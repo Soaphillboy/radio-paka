@@ -16,3 +16,7 @@ Pirmais izlaidums: EHR komandas datoru paka (V1 papildinājums dashboardam).
   setup_captions.sh (mlx-whisper, modelis, Remotion), droši atkārtojami.
 
 Apzināti nav: cover-foto (V1.1), dashboarda API, titru redaktors.
+
+## 1.0.1 (2026-08-17)
+- Izplatīšana bez tokeniem: repo publisks, klients pievieno ar pilno https adresi (2 komandas + "uzstādi").
+- No pakas izņemta EHR dashboarda iekšējā adrese (dzīvo Edgara CRM piezīmēs); `uzstadi` to pajautā.

@@ -74,8 +74,8 @@ jau ir, tikai papildini tukšos laukus. Jautā pa vienam, katru ar variantiem va
    atsevišķi, šis ir tikai noklusējums." → `zimols` (atslēga: ehr / superhits / latviesuhiti /
    ehrplus / retrofm). Valodu ieliec pēc zīmola (`ehrplus` un `retrofm` → `language: "ru"`, citi → `"lv"`),
    ja cilvēks nepasaka citādi.
-3. **Dashboards**: "Kāda ir dashboarda adrese pārlūkā, kad esi birojā?" Piedāvā noklusējumu
-   `http://10.0.0.33:8080` (biroja tīkls / VPN). → `dashboard`. Adrese configā ir tikai
+3. **Dashboards**: "Kāda ir dashboarda adrese pārlūkā, kad esi birojā? (Atver to un nokopē
+   adresi no pārlūka.)" Ja uzstāda Edgars, viņš adresi zina. → `dashboard`. Adrese configā ir tikai
    atsauce (Claude to ieraksta darba mapes CLAUDE.md un piemin, kad vajag), skilli ar
    dashboardu pagaidām nesazinās; nesoli citādi.
 4. **Akcenti titros**: "Titri ir balti, kā EHR reelos līdz šim. Vai gribi, lai pirms katra video

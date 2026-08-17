@@ -1,7 +1,10 @@
 {
   "name": "ehr",
   "description": "EHR Satura Sistēma darbinieka datorā: saki 'uzstādi', tad 'uzliec titrus' vai 'uzraksti aprakstu'.",
-  "version": "1.0.0",
-  "author": { "name": "Edgars Feščenko / FRESH digital", "email": "edgars@creators.lv" },
+  "version": "1.0.1",
+  "author": {
+    "name": "Edgars Feščenko / FRESH digital",
+    "email": "edgars@creators.lv"
+  },
   "homepage": "https://ehr.creators.lv"
 }

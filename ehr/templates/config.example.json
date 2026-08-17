@@ -1,15 +1,25 @@
 {
   "version": 1,
   "vards": "",
-  "dashboard": "http://10.0.0.33:8080",
+  "dashboard": "",
   "zimols": "ehr",
   "language": "lv",
   "darbaMape": "~/EHR-saturs",
-  "platforms": ["instagram", "tiktok", "facebook", "youtube"],
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+  ],
   "captions": {
     "accents": false,
     "captionY": 1120,
     "whisperModel": "mlx-community/whisper-large-v3-mlx"
   },
-  "meta": { "packVersion": "", "installedAt": "", "installedBy": "", "setup": {} }
+  "meta": {
+    "packVersion": "",
+    "installedAt": "",
+    "installedBy": "",
+    "setup": {}
+  }
 }

@@ -11,14 +11,10 @@ TEV NEKAS NAV JĀPROGRAMMĒ. Tu runā, Claude dara.
 - Apple Command Line Tools (pirmajā reizē Mac pats piedāvās logu ar pogu Install: spied Install,
   NE "Get Xcode"; logs mēdz paslēpties aiz citiem logiem; ~5 min)
 
-## Uzstādīšana (3 komandas + 1 vārds, ~15 min, lielākā daļa fonā)
+## Uzstādīšana (2 komandas + 1 vārds, ~15 min, lielākā daļa fonā)
 
-Piekļuves komandu (1. rinda) iedod Edgars: vai nu izdarāt kopā uzstādīšanas dienā, vai
-saņem e-pastā. Atver Claude Code un ieraksti pa vienai:
+Atver Claude Code un ieraksti pa vienai (nekādas pieteikšanās vai paroles nevajag):
 
-```
-<piekļuves komanda no Edgara>
-```
 ```
 /plugin marketplace add https://github.com/Soaphillboy/ehr-paka
 ```
@@ -56,4 +52,4 @@ jaunākos uzlabojumus (arī zīmolu balss labojumus). Tavi faili un iestatījumi
 
 ## Ja kaut kas neiet
 
-Raksti edgars@creators.lv vai WhatsApp. Dashboards: http://10.0.0.33:8080 (biroja tīkls / VPN).
+Raksti edgars@creators.lv vai WhatsApp. Dashboarda adrese ir tavā darba mapes CLAUDE.md (Claude to ierakstīja uzstādīšanas laikā).

@@ -77,7 +77,7 @@ mkdir -p "$EHR_HOME/work"
 echo "$PY" > "$EHR_HOME/.python"
 echo "✓ $EHR_HOME"
 
-# 8) Claude Code iestatījums: privātā marketplace fona atjauninājums bez piekļuves
+# 8) Claude Code iestatījums: ja fona atjauninājums kādreiz neizdodas (nav interneta), paturēt esošo kopiju
 #    citādi klusi pārklonē paku. Sapludina ar esošo ~/.claude/settings.json.
 "$PY" - <<'EOF' || echo "  (settings.json neizdevās papildināt; uzstadi skills to izdarīs pats)"
 import json, os

@@ -5,12 +5,9 @@ Mērķis: 3 līdz 4 Mac (Artūrs, Anete, Viorika, Ilze?) ar `ehr` paku, katrs ~1
 
 ## Pirms brauciena (vakarā pirms)
 
-- [ ] GitHub: fine-grained PAT tikai repo `ehr-paka`, Contents: Read-only, 90 dienas
-      (github.com → Settings → Developer settings → Fine-grained tokens). Ieraksti to
-      `~/claude-os/projekti/ehr-paka/.token` (gitignored) un uzraksti piekļuves komandu:
-      ```
-      git config --global "url.https://x-access-token:<TOKENS>@github.com/Soaphillboy/ehr-paka.insteadOf" "https://github.com/Soaphillboy/ehr-paka"
-      ```
+- [ ] Repo ir PUBLISKS (github.com/Soaphillboy/ehr-paka → Settings → Danger zone), tāpēc
+      nekādi tokeni un GitHub konti klientiem nav vajadzīgi. Pārbaude no jebkura datora bez
+      pieteikšanās: `git ls-remote https://github.com/Soaphillboy/ehr-paka` (rāda `main`).
 - [ ] Pārbaudi, ka repo ir pushots un `main` satur jaunāko: `cd ~/claude-os/projekti/ehr-paka && git status && git log -1`
 - [ ] Ja iespējams, iepriekšējā dienā aizsūti komandai vienu rindu, ko palaist Terminālī, lai
       lejupielādē lielos gabalus fonā (Homebrew + ffmpeg + node + python), tad uz vietas paliek
@@ -22,17 +19,19 @@ Mērķis: 3 līdz 4 Mac (Artūrs, Anete, Viorika, Ilze?) ar `ehr` paku, katrs ~1
 
 ## Pie katra datora (~15 min)
 
-1. Claude Code atvērts. Ielīmē 3 rindas: piekļuves komanda, `/plugin marketplace add`,
-   `/plugin install ehr@ehr-paka`.
+1. Claude Code atvērts. Ielīmē 2 rindas:
+   `/plugin marketplace add https://github.com/Soaphillboy/ehr-paka` un `/plugin install ehr@ehr-paka`.
+   (Pilnā HTTPS adrese, ne `Soaphillboy/ehr-paka` īsforma: īsforma klonē pa SSH un bez atslēgas failo.)
 2. "uzstādi". Fons sāk iet. Atbildi uz 4 jautājumiem kopā ar cilvēku (vārds, zīmols,
-   dashboards `http://10.0.0.33:8080`, akcenti).
+   dashboarda adrese birojā, akcenti). Dashboarda adrese ir tava piezīmēs (klienta CRM
+   kartīte), pakā tā apzināti nav ierakstīta.
 3. Pāriet pie nākamā datora. Atgriezies, kad fons beidzies.
 4. Pārbaude ar viņu īstu video (auto-captions + auto-apraksts). Parādi kadrus.
 5. Pieraksti, kas šajā datorā īpašs (Intel, cita mape) → klienta CRM kartītē.
 
 ## Gotchas
 
-- Bez piekļuves komandas marketplace add prasīs GitHub login vai klusi failos.
+- Ja marketplace add prasa GitHub login: pārbaudi, vai komandā ir pilnā https adrese un vai repo joprojām publisks.
 - Pēc katra `marketplace update` vajag `/reload-plugins`.
 - Ja "uzstādi" apstājas uz Homebrew: cilvēks pats ievada Mac paroli Terminālī, tad "uzstādi" vēlreiz.
 - Intel Mac: apraksti jā, titri nē; pasaki uzreiz.

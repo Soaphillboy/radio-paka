@@ -1,11 +1,12 @@
 # ehr-paka
 
-Privāts Claude Code plugin marketplace European Hit Radio (EHR) komandas datoriem. Viens plugins
+Claude Code plugin marketplace European Hit Radio (EHR) komandas datoriem (publisks repo, lai
+klientiem nevajag tokenus; pakā nav noslēpumu, tikai skilli, skripti un zīmolu profili no publiskiem postiem). Viens plugins
 `ehr` ar trim skilliem, ar ko darbinieka Mac prot uzlikt EHR stila titrus un uzrakstīt video
 aprakstus visiem pieciem zīmoliem. Papildina EHR Satura Sistēmas dashboardu (Docker konteineris
-EHR serverī, `http://10.0.0.33:8080`), ar to pagaidām nesazinās, tikai zina adresi.
+EHR serverī, adrese klienta CRM kartītē, ne šajā repo), ar to pagaidām nesazinās, tikai zina adresi.
 
-Klientam: **KLIENTS.md** (3 komandas + "uzstādi"). Edgaram uzstādīšanas dienai: `docs/UZSTADISANAS-DIENA.md`.
+Klientam: **KLIENTS.md** (2 komandas + "uzstādi"). Edgaram uzstādīšanas dienai: `docs/UZSTADISANAS-DIENA.md`.
 
 ## Struktūra
 
@@ -39,8 +40,9 @@ tos neaiztiek.
 
 ## Piekļuve klientiem
 
-Fine-grained PAT (tikai šis repo, Contents read-only, 90 d) + git URL rewrite klienta Macā,
-skat. `docs/UZSTADISANAS-DIENA.md`. Tokens šajā repo nekad nedzīvo (`.token` ir gitignored).
+Repo ir publisks: `/plugin marketplace add https://github.com/Soaphillboy/ehr-paka` bez tokeniem
+un bez GitHub konta (pilnā https adrese; `owner/repo` īsforma klonē pa SSH un bez atslēgas failo).
+Šajā repo nekad neliec neko iekšēju: klienta adreses, paroles, e-pastus, nepubliskus datus.
 
 ## Vēl nav (apzināti)
 
